@@ -9,6 +9,6 @@ def lookup(obj):
     """
     Returns a list object
     """
-
-
-return dir(list)
+    list = obj
+    
+    return dir(list)
