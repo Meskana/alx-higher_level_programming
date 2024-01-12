@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import json
+from io import StringIo
 """
 a function that returns the JSON representation of an object (string)
 """
