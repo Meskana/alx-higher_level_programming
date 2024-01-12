@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-import json
-from io import StringIO
 """
 a function that returns an object (Python data structure)
 represented by a JSON string
 """
+import json
+from io import StringIO
 
 
 def from_json_string(my_str):
