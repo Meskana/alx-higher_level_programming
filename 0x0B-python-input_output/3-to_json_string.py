@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-import json
-from io import StringIO
 """
 a function that returns the JSON representation of an object (string)
 """
+import json
+from io import StringIO
 
 
 def to_json_string(my_obj):
