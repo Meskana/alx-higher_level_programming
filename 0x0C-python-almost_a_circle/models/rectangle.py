@@ -114,6 +114,7 @@ class Rectangle(Base):
                 "[Rectangle] ({}) {}/{} - {}/{}"
                 .format(self.id, self.x, self.y, self.width, self.height)
         )
+
     def update(self, *args, **kwargs):
         """
         Update the class Rectangle that assigns an argument to each attribute
@@ -137,5 +138,3 @@ class Rectangle(Base):
                     self.y = value
                 else:
                     break
-
-
